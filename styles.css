@@ -1,0 +1,90 @@
+body {
+    background-image: url('https://uhdwallpapers.org/uploads/converted/20/01/14/the-mandalorian-5k-1920x1080_477555-mm-90.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    background-position: center center;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+.w3-container {
+    display:flex;
+    justify-content: center;
+    background-color: lightcoral; 
+    border: 5px solid whitesmoke;
+    border-radius: 80px; 
+    flex-grow: initial;
+    margin: 100px;
+    width: 500px;
+    padding: 1rem 1rem 1rem 1rem;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    margin-top: 150px;
+    box-shadow: 5px 10px;
+    flex-wrap: wrap;
+}
+
+.w3-container:hover {
+    background-color: lightcoral;
+    border-color: black;
+}
+
+.titlu {
+    text-align: center;
+    padding-top: 3rem;
+    color: white;
+    text-shadow: 4px 4px black;
+    font-size: 60px;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    font-family: Roboto; display: swap;
+}
+
+.subtitlu {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 3px 3px black;
+    font-size: 40px;
+    position: relative;
+    top: -50px;
+    padding-top: 1em;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.instagram:hover {
+    background-color: white;
+}
+
+.facebook:hover {
+    background-color: white;
+}
